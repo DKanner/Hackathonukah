@@ -167,6 +167,12 @@ a:focus {
     font-size: .75em;
 }
 
+.candle-img {
+    width: 20px;
+    height: auto;
+    padding-bottom: 5px;
+}
+
 @media(min-width:767px) {
     .intro {
         height: 100%;
