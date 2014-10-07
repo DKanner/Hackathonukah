@@ -158,12 +158,14 @@ a:focus {
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    color: #5DFC0A;
+    font-family: "PT Mono";
+    font-weight: 700;
 }
 
 /* make the top background image darker */
 .intro .intro-body {
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.5);
 }
 
 .attribution {
@@ -196,7 +198,7 @@ a:focus {
     }
 
     .intro .intro-body .intro-text {
-        font-size: 25px;
+        font-size: 32px;
     }
 }
 
