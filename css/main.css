@@ -293,6 +293,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-weight: 400;
 }
 
 #map {
