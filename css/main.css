@@ -277,22 +277,6 @@ a:focus {
     padding-top: 100px;
 }
 
-.register-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ), url(../img/dark_laptop_lg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    font-weight: 400;
-}
-
 .email-link {
     font-weight: 400;
 }
@@ -306,10 +290,6 @@ a:focus {
 @media(min-width:767px) {
     .content-section {
         padding-top: 100px;
-    }
-
-    .register-section {
-        padding: 100px 0;
     }
 
     #map {
