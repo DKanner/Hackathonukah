@@ -180,12 +180,8 @@ a:focus {
     padding-bottom: 5px;
 }
 
-/* Mailchip Link */
-#mc_embed_signup{
-    background:#fff;
-    clear:left;
-    font:"Source Sans Pro",Helvetica,Arial,sans-serif;
-    font-size: 14px;
+#mc-signup form .form-group {
+    width: 33%;
 }
 
 @media(min-width:767px) {
