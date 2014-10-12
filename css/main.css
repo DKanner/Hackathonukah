@@ -161,6 +161,7 @@ a:focus {
     color: #5DFC0A;
     font-family: "PT Mono";
     font-weight: 700;
+    padding-bottom: 50px;
 }
 
 /* make the top background image darker */
@@ -181,17 +182,11 @@ a:focus {
 }
 
 #mc-signup {
-    padding: 20px 0px;
+    padding: 20px 20px;
     background: rgba(0,0,0,1);
 }
 #mc-signup form .form-group input {
     font-size: 1.25em;
-}
-
-@media(max-width:767px) {
-    #mc-signup form .form-group {
-        width: 50%;
-    }
 }
 
 @media(min-width:767px) {
