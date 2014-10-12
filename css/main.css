@@ -180,8 +180,18 @@ a:focus {
     padding-bottom: 5px;
 }
 
-#mc-signup form .form-group {
-    width: 33%;
+#mc-signup {
+    padding: 20px 0px;
+    background: rgba(0,0,0,1);
+}
+#mc-signup form .form-group input {
+    font-size: 1.25em;
+}
+
+@media(max-width:767px) {
+    #mc-signup form .form-group {
+        width: 50%;
+    }
 }
 
 @media(min-width:767px) {
