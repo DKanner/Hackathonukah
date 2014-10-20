@@ -352,6 +352,14 @@ ul.banner-social-buttons {
     }
 }
 
+.sponsor-logo {
+    width: 100%;
+}
+
+#thalmic-logo .sponsor-logo {
+    margin-top: 50px;
+}
+
 footer {
     padding: 50px 0;
 }
