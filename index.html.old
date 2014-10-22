@@ -11,6 +11,9 @@
 
     <title>Hackathonukah | The Hackathon of Lights</title>
 
+    <!-- Canonical Link for Google Indexing -->
+    <link rel="canonical" href="http://hackathonukah.com"/>
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico">
 
