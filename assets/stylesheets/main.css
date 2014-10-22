@@ -9,7 +9,7 @@ body {
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     color: #eee;
-    background-color: #111;
+    background-color: #222;
 }
 
 html {
@@ -28,4 +28,58 @@ h6 {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
+}
+
+/* Bootstrap Overrides */
+
+.jumbotron {
+  text-align: center;
+}
+
+/* Navbar */
+.navbar-custom {
+  border-bottom: 1px solid rgba(255,255,255,.3);
+  text-transform: uppercase;
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-top: 10px;
+}
+
+.navbar-brand {
+  font-family: 'Kraft Nine';
+  font-size: 24pt;
+}
+
+/* Intro */
+
+.intro {
+  margin-top: 61px;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+.intro-body {
+  height: auto;
+  background-color: #111;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/LED_Menorah.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.brand-heading {
+  font-family: 'Kraft Nine';
+  font-size: 40px;
+}
+
+.intro-text {
+  color: #5DFC0A;
+  font-family: "PT Mono";
+  font-weight: 700;
+  padding-bottom: 50px;
 }
