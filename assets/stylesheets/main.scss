@@ -11,8 +11,7 @@
 @import "font-awesome-4.2.0/font-awesome";
 
 // import Google Fonts
-@import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic|Source+Sans+Pro:400,700|PT+Mono);
 
 // Our variables
 $base-font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
@@ -405,8 +404,20 @@ ul.banner-social-buttons {
     }
 }
 
+#sponsors {
+    border-top: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#sponsors-heading {
+    padding-bottom: 50px;
+}
+
 .sponsor-logo {
-    width: 100%;
+    width: 55%;
+    margin: 0 auto;
 }
 
 #thalmic-logo .sponsor-logo {
