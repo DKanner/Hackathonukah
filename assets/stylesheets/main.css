@@ -2,21 +2,18 @@
   font-family: 'Kraft Nine';
   src: url('/assets/fonts/KraftNineDEMO.ttf');
 }
-
 body {
     width: 100%;
     height: 100%;
     font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     color: #eee;
-    background-color: #222;
+    background-color: #030303;
 }
-
 html {
     width: 100%;
     height: 100%;
 }
-
 h1,
 h2,
 h3,
@@ -31,7 +28,12 @@ h6 {
 }
 
 /* Bootstrap Overrides */
-
+.navbar-inverse {
+  background-color: #030303;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
 .jumbotron {
   text-align: center;
 }
@@ -43,22 +45,19 @@ h6 {
   font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
   padding-top: 10px;
 }
-
 .navbar-brand {
   font-family: 'Kraft Nine';
   font-size: 24pt;
 }
 
 /* Intro */
-
 .intro {
-  margin-top: 61px;
+  padding-top: 61px;
   display: table;
   width: 100%;
   height: auto;
   padding-bottom: 100px;
 }
-
 .intro-body {
   height: auto;
   background-color: #111;
@@ -71,13 +70,10 @@ h6 {
   background-size: cover;
   -o-background-size: cover;
 }
-
 .brand-heading {
   font-family: 'Kraft Nine';
-  font-size: 40px;
 }
-
-.intro-text {
+.jumbotron .intro-text {
   color: #5DFC0A;
   font-family: "PT Mono";
   font-weight: 700;
