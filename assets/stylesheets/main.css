@@ -36,9 +36,22 @@ h6 {
 }
 
 .heading {
-  font-family: Novecentosanswide-Normal;
-  font-size: 1.1em;
+  font-family: Novecentosanswide-Medium;
+  text-transform: uppercase;
+  font-size: 1em;
   color: #EA6723;
+}
+
+.space-heading {
+  font-family: Novecentosanswide-Medium;
+  font-size: 1.2em;
+  color: #000;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
 }
 
 /* body */
@@ -72,9 +85,8 @@ h6 {
 /* intro */
 #intro {
   padding-top: 125px;
+  padding-bottom: 0;
   color: #fff;
-  width: 100%;
-  height: auto;
   background-color: #000;
 }
 
@@ -108,7 +120,12 @@ h6 {
 /* about */
 #about {
   font-size: 1.3em;
-  padding: 50px 0;
+}
+
+/* sponsors */
+#sponsors {
+  background-color: #EA6723;
+  color: #fff;
 }
 
 @media (min-width: 1200px) {
@@ -223,6 +240,29 @@ h6 {
     top: -15px;
     left: 10px;
     height: 50px;
+  }
+
+  .navbar-toggle {
+    margin: 5px 0;
+    margin-right: 15px;
+    padding: 8px 10px;
+    /*color: #EA6723;*/
+  }
+
+  .navbar-collapse {
+    border-top: 0px;
+  }
+
+  .navbar-collapse .nav {
+    margin-top: 0;
+  }
+
+  .nav > li:first-child {
+    border-top: 1px solid #000;
+  }
+
+  .nav > li:last-child {
+    border-bottom: 1px solid #000;
   }
 
   .tagline {
