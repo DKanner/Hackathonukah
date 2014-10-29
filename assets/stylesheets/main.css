@@ -75,8 +75,8 @@ section {
   font-family: Novecentosanswide-Medium;
   text-transform: uppercase;
   background-color: #fff;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  /*border-top: 1px solid #000;*/
+  /*border-bottom: 1px solid #000;*/
 }
 
 .navbar-custom a {
