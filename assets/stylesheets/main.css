@@ -64,6 +64,8 @@ section {
   padding: 100px 0;
 }
 
+/* body */
+
 /* navbar */
 .nav > li > a {
   background-color: #fff;
@@ -132,7 +134,7 @@ section {
 
 /* sponsors */
 #sponsors {
-  background-color: #000;
+  background-color: #000; /* #EA6723; */
   color: #fff;
 }
 
