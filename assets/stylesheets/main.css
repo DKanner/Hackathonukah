@@ -1,0 +1,93 @@
+/* general */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-family: Novecentosanswide-Medium;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.btn-default {
+  border: 1px solid #EA6723;
+  color: #fff;
+  background-color: #EA6723;
+  border-radius: 46px;
+}
+
+/* body */
+
+/* navbar */
+.navbar-custom {
+  font-family: Novecentosanswide-Medium;
+  text-transform: uppercase;
+  margin-top: 25px;
+  background: #fff;
+  padding: 10px 0;
+}
+
+.navbar-custom a {
+  color: #000;
+  font-size: 1.2em;
+}
+
+.logo {
+  padding: 0;
+}
+
+.logo img {
+  position: relative;
+  top: -25px;
+}
+
+/* intro */
+.intro {
+  padding-top: 125px;
+  color: #fff;
+  width: 100%;
+  height: auto;
+  background-color: #000;
+}
+
+.tagline-wrapper {/*
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);*/
+}
+
+.tagline {
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding-top: 75px;
+  text-align: center;
+}
+
+.led-menorah img {
+  width: 100%;
+}
+
+.register-btn {
+  padding-top: 25px;
+}
+
+.register-btn a:hover {
+  color: #EA6723;
+}
+
+@media (min-width: 992px) {
+  .tagline {
+    font-size: 30px;
+  }
+}
