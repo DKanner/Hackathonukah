@@ -28,10 +28,14 @@ h6 {
 /* body */
 
 /* navbar */
+.nav > li > a {
+  background-color: #fff;
+}
+
 .navbar-custom {
   font-family: Novecentosanswide-Medium;
   text-transform: uppercase;
-  background: #fff;
+  background-color: #fff;
 }
 
 .navbar-custom a {
