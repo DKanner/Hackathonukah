@@ -1,176 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hackathonukah is a Hanukkah-themed hackathon that will take place in NYC from Dec. 13-14, 2014.">
-    <meta name="author" content="Donny and Oren Kanner">
+  <title>Hackathonukah | The Hackathon of Lights</title>
 
-    <title>Hackathonukah | The Hackathon of Lights</title>
-    
-    <!-- Canonical Link for Google Indexing -->
-    <link rel="canonical" href="http://hackathonukah.com"/>
+  <meta name="description" content="Hackathonukah is a Hanukkah-themed hackathon celebrating smart lighting and the Internet of Things that will take place in NYC from Dec. 13-14, 2014.">
+  <meta name="author" content="Donny and Oren Kanner">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="canonical" href="http://hackathonukah.com"/>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
-    <!-- Custom CSS -->
-    <link href="css/main.css" rel="stylesheet">
+  <link href="/assets/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!--
+  /**
+   * @license
+   * MyFonts Webfont Build ID 2911409, 2014-10-28T22:15:13-0400
+   *
+   * The fonts listed in this notice are subject to the End User License
+   * Agreement(s) entered into by the website owner. All other parties are
+   * explicitly restricted from using the Licensed Webfonts(s).
+   *
+   * You may obtain a valid license at the URLs below.
+   *
+   * Webfont: Novecentosanswide-Medium by Synthview
+   * URL: http://www.myfonts.com/fonts/synthview/novecento/wide-medium/
+   *
+   * Webfont: Novecentosanswide-Normal by Synthview
+   * URL: http://www.myfonts.com/fonts/synthview/novecento/wide-normal/
+   *
+   *
+   * License: http://www.myfonts.com/viewlicense?type=web&buildid=2911409
+   * Licensed pageviews: 10,000
+   * Webfonts copyright: Copyright &#x00A9; 2013 by Jan Tonellato. All rights reserved.
+   *
+   * © 2014 MyFonts Inc
+  */
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+  -->
+  <link rel="stylesheet" type="text/css" href="/assets/stylesheets/novecento-sans.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+  <link href="/assets/stylesheets/main.css" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <script src="/assets/javascripts/jquery-1.11.1.min.js" type="text/javascript"></script>
+  <script src="/assets/javascripts/bootstrap.min.js" type="text/javascript"></script>
+  <script src="/assets/javascripts/main.js" type="text/javascript"></script>
 
-      ga('create', 'UA-52273145-3', 'auto');
-      ga('send', 'pageview');
-    </script>
-
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
+<body id="top">
+  <!-- Navbar -->
+  <nav class="navbar navbar-fixed-top navbar-custom" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand logo" href="#top"><img src="/assets/images/logo.png" alt="Hackathonukah"></a>
+      </div>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-main-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">About the Event</a></li>
+          <li class="hidden"><a href="#"></a></li>
+          <li><a href="#sponsors">Sponsors</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <img class="candle-img" src="img/candle.png" alt=""><span class="light">Hackathonukah</span>
-                </a>
+  <section id="intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-1 tagline-wrapper .vcenter">
+          <div class="tagline">
+            <p class="date">12.13.14</p>
+            <p>The Hackathon of Lights</p>
+            <div class="register-btn">
+              <a href="https://www.eventbrite.com/e/hackathonukah-2014-tickets-12424218171" class="btn btn-default">Register Now!</a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+          </div>
         </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <h1 class="brand-heading">Hackathonukah</h1>
-                        <p class="intro-text">Code. Miracles.<br>A HACKATHON OF LIGHTS.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1 col-xs-6 col-xs-offset-3" id="mc-signup">
-                        <h3>Sign Up For Our Mailing List</h3>
-                        <form action="http://hackathonukah.us9.list-manage.com/subscribe/post?u=373d1c500071a968b1828c516&amp;id=7d789813b7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline" target="_blank" novalidate role="form">
-                            <div class="form-group">
-                                <label for="mce-NAME" class="sr-only">Name </label>
-                                <input type="text" value="" name="NAME" class="form-control" id="mce-NAME" placeholder="Your Name">
-                            </div>
-                            <div class="form-group">
-                                <label for="mce-EMAIL" class="sr-only">Email Address </label>
-                                <input type="email" value="" name="EMAIL" class="form-control" placeholder="Your E-Mail" id="mce-EMAIL">
-                            </div>
-                            <div style="position: absolute; left: -5000px;"><input type="text" name="b_373d1c500071a968b1828c516_7d789813b7" tabindex="-1" value=""></div>
-                            <div class="clear form-group"><button type="submit" class="btn btn-default btn-lg">Subscribe</button></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+        <div class="col-sm-7 led-menorah">
+          <img src="/assets/images/led_menorah.jpg" alt="">
         </div>
-    </header>
+      </div>
+    </div>
+  </section>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About The Event</h2>
-                <p>Hackathonukah is the hackathon of lights. It is a 25 hour technology event that celebrates lights, programming, hardware, and technology. This event will bring together the diverse talent found in the greater New York technology community to build stuff, eat festive food, and have fun.</p>
-                <p>Not an experienced hacker? Beginners can attend one of our technology crash courses that will dive into the basics of programming/hardware hacking and have you build a project of your own! </p>
-                <p><em>When:</em> 2014-12-13 / 7:00PM to 2014-12-14 / 8:00PM</p>
-                <p><em>Where:</em> New York City. <a href="#page-top">Stay tuned</a> for more specific location details.</p>
-            </div>
+  <section id="about">
+    <div class="container content-section">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <h1>About Hackathonukah</h1>
+          <p>Hackathonukah is the hackathon of lights. It is a 25 hour technology event that celebrates lights, programming, hardware and The Internet of Things. This event will bring together the diverse talent found in the greater New York technology community to build cool stuff, eat Hanukkah-themed food, and have fun!</p>
+          <p>Hackathonukah will feature smart lighting and connected devices, such as SmartThings, LIFX, and Philips Hue, and the integration of novel and exciting sensors, such as Thalmic Myo and Leap Motion. Participants can compete for prizes for both the connected devices projects as well as general app/website development.</p>
+          <p>Additionally, beginners can attend one of our technology crash courses that will dive into the basics of programming/hardware hacking and have you build a project of your own!</p>
+          <br>
+          <p><span class="heading">When: </span>Saturday, December 13th at 7:00 PM - Sunday, December 14th at 8:00 PM</p>
+          <p><span class="heading">Where: </span>New York Code + Design Academy (90 John St #404, New York, NY 10038)</p>
+          <br>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Our Team</h2>
-                <p>Feel free to email us to offer feedback, find out more about the event, discuss sponsorships, offer to teach a class, et cetera.  We want to hear it all!</p>
-                <p><a class="email-link" href="mailto:hackathonukah@gmail.com">hackathonukah@gmail.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/Hackathonukah" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="http://facebook.com/Hackathonukah" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
-                </ul>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 text-center">
+          <p><span class="heading space-heading">Space is Limited!</span></p>
+          <p><a class="btn btn-default btn-lg" href="https://www.eventbrite.com/e/hackathonukah-2014-tickets-12424218171">Register Today</a></p>
         </div>
-    </section>
-
-    <!-- Map Section -->
-    <div id="map"></div>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Hackathonukah.com 2014</p>
-            <p class="attribution">LED photo originally published by <a href="https://flic.kr/p/tJHXo">Windell Oskay</a></p>
+      </div>
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 text-center mailing">
+          <p><span class="heading mailing-heading">Want to Hear More?</span></p>
+          <p><a class="btn btn-default" href="http://eepurl.com/40ReD">Join Our Mailing List</a></p>
         </div>
-    </footer>
+      </div>
+    </div>
+  </section>
 
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
+  <section id="sponsors">
+    <div class="container content-section text-center">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Our Sponsors</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 sponsor-logo">
+          <a href="http://nycda.com/"><img id="nycda-logo" src="/assets/images/nycda.png" alt="New York Code + Design Academy"></a>
+        </div>
+        <div class="col-sm-4 sponsor-logo">
+          <a href="http://smartthings.com/"><img src="/assets/images/smartthings-ringed.png" alt="SmartThings"></a>
+        </div>
+        <div class="col-sm-4 sponsor-logo">
+          <a href="http://thalmic.com/"><img id="thalmic-logo" src="/assets/images/thalmic.png" alt="Thalmic Labs"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 sponsor-logo">
+          <a href="http://lifx.co/"><img src="/assets/images/lifx.png" alt="LIFX"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <h3>Want to see your logo here? We do too!<br>Contact us to find out more about sponsorship opportunities.</h3>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+  <section id="contact">
+    <div class="container content-section text-center">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <h1>Contact Our Team</h1>
+          <p>Feel free to email us to offer feedback, find out more about the event, discuss sponsorships, offer to teach a class, et cetera. We want to hear it all!</p>
+          <ul class="list-inline contact-list">
+            <li>
+              <a class="contact-btn" href="mailto:hackathonukah@gmail.com"><i class="fa fa-envelope-o"></i></a>
+            </li>
+            <li>
+              <a class="contact-btn" href="https://twitter.com/Hackathonukah"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a class="contact-btn" href="https://www.facebook.com/Hackathonukah"><i class="fa fa-facebook-square"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/main.js"></script>
+  <footer>
+    <div class="container text-center">
+      <p>Copyright &copy; Hackathonukah, LLC 2014</p>
+      <p class="attribution">LED photo originally published by <a href="https://flic.kr/p/tJHXo">Windell Oskay</a></p>
+    </div>
+  </footer>
 
 </body>
-
 </html>
