@@ -1,13 +1,17 @@
 /* general */
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans";
   font-weight: 600;
-  color: #fff;
+  color: #EA6723;
 }
 
 .btn {
@@ -25,6 +29,18 @@ h6 {
   border-radius: 46px;
 }
 
+.btn-default:hover {
+  border: 1px solid #EA6723;
+  background-color: #fff;
+  color: #EA6723;
+}
+
+.heading {
+  font-family: Novecentosanswide-Normal;
+  font-size: 1.1em;
+  color: #EA6723;
+}
+
 /* body */
 
 /* navbar */
@@ -36,6 +52,8 @@ h6 {
   font-family: Novecentosanswide-Medium;
   text-transform: uppercase;
   background-color: #fff;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .navbar-custom a {
@@ -52,7 +70,7 @@ h6 {
 }
 
 /* intro */
-.intro {
+#intro {
   padding-top: 125px;
   color: #fff;
   width: 100%;
@@ -60,17 +78,7 @@ h6 {
   background-color: #000;
 }
 
-.tagline-wrapper {/*
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);*/
-}
-
 .tagline {
-  font-family: "Open Sans";
-  font-weight: 400;
   text-align: center;
 }
 
@@ -94,7 +102,13 @@ h6 {
 }
 
 .register-btn a:hover {
-  color: #EA6723;
+  border: 1px solid #000;
+}
+
+/* about */
+#about {
+  font-size: 1.3em;
+  padding: 50px 0;
 }
 
 @media (min-width: 1200px) {
