@@ -158,6 +158,15 @@ section {
   margin-top: 100px;
 }
 
+#sponsors h3 a {
+  color: #EA6723;
+  text-decoration: none;
+}
+
+#sponsors h3 a:hover {
+  color: #428bca;
+}
+
 /* contact */
 #contact {
   font-size: 1.3em;
@@ -192,13 +201,18 @@ footer p {
   margin: 0;
 }
 
-footer a {
-  color: #EA6723;
-}
-
 .attribution {
   text-align: right;
   font-size: .75em;
+}
+
+.attribution a {
+  color: #EA6723;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: #428bca;
 }
 
 
