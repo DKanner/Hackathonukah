@@ -255,6 +255,10 @@ footer p {
   #thalmic-logo {
     margin-top: 116px;
   }
+
+  #do-logo {
+    margin-top: 15px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -294,6 +298,10 @@ footer p {
 
   #thalmic-logo {
     margin-top: 94px;
+  }
+
+  #do-logo {
+    margin-top: 11px;
   }
 }
 
@@ -335,6 +343,10 @@ footer p {
 
   #thalmic-logo {
     margin-top: 71px;
+  }
+
+  #do-logo {
+    margin-top: 5px;
   }
 }
 
@@ -397,6 +409,7 @@ footer p {
 
   .sponsor-logo img {
     width: 40%;
+    padding-top: 20px;
   }
 
   #nycda-logo {
