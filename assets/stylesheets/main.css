@@ -218,11 +218,16 @@ footer p {
 /* tech page */
 .cogs i {
   padding-top: 29px;
-  color: #FFA373;
+/*  color: #FFA373; */
+  color: rgba(255,255,255,0.3);
 }
 
 #tech {
   font-size: 1.2em;
+}
+
+.tagline .tech-heading {
+  color: #EA6723;
 }
 
 .hardware-bg {
@@ -306,7 +311,6 @@ footer p {
   .tagline .tech-heading {
     font-size: 65px;
     line-height: 1.2em;
-    color: #428bca;
   }
 
   .hardware {
@@ -378,7 +382,6 @@ footer p {
     padding-top: 10px;
     font-size: 55px;
     line-height: 1.2em;
-    color: #428bca;
   }
 
   .hardware {
@@ -451,7 +454,6 @@ footer p {
     padding-top: 20px;
     font-size: 40px;
     line-height: 1.2em;
-    color: #428bca;
   }
 
   .hardware {
@@ -561,7 +563,6 @@ footer p {
   .tagline .tech-heading {
     font-size: 40px;
     line-height: 1.1em;
-    color: #428bca;
   }
 
   .hardware {
