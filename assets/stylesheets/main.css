@@ -149,7 +149,7 @@ section {
 
 .sponsor-logo img {
   width: 80%;
-  margin: auto auto;
+  margin: auto;
 }
 
 #sponsors h3 {
@@ -165,6 +165,19 @@ section {
 
 #sponsors h3 a:hover {
   color: #428bca;
+}
+
+.community-partner {
+  margin-top: 30px;
+}
+
+.community-partner img {
+  width: 80%;
+  margin: auto;
+}
+
+.community-partner h4 {
+  color: #fff;
 }
 
 /* contact */
