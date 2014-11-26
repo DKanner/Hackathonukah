@@ -259,17 +259,6 @@ footer p {
   color: #428bca;
 }
 
-/* jobs page */
-
-.job-listing h2 a {
-  color: #EA6723;
-  text-decoration: none;
-}
-
-.job-listing h2 a:hover {
-  color: #428bca;
-}
-
 /* media queries */
 
 @media (min-width: 1200px) {
@@ -322,6 +311,14 @@ footer p {
     margin-top: 70px;
   }
 
+  #keen-logo {
+    margin-top: 90px;
+  }
+
+  #spark-logo {
+    margin-top: 78px;
+  }
+
   .cogs {
     font-size: 5em;
     height: 408px;
@@ -341,7 +338,11 @@ footer p {
   }
 
   .job-listing {
-    height: 19em;
+    height: 28em;
+  }
+
+  .job-listing p {
+    height: 13em;
   }
 }
 
@@ -396,6 +397,14 @@ footer p {
     margin-top: 50px;
   }
 
+  #keen-logo {
+    margin-top: 66px;
+  }
+
+  #spark-logo {
+    margin-top: 57px;
+  }
+
   .cogs {
     font-size: 4em;
     height: 335px;
@@ -416,7 +425,11 @@ footer p {
   }
 
   .job-listing {
-    height: 21em;
+    height: 30em;
+  }
+
+  .job-listing p {
+    height: 16em;
   }
 }
 
@@ -472,6 +485,14 @@ footer p {
     margin-top: 40px;
   }
 
+  #keen-logo {
+    margin-top: 52px;
+  }
+
+  #spark-logo {
+    margin-top: 45px;
+  }
+
   .cogs {
     font-size: 3em;
     height: 255px;
@@ -492,7 +513,11 @@ footer p {
   }
 
   .job-listing {
-    height: 25em;
+    height: 38em;
+  }
+
+  .job-listing p {
+    height: 22em;
   }
 }
 
@@ -576,6 +601,19 @@ footer p {
 
   #kinect-logo {
     margin-top: 20px;
+  }
+
+  #keen-logo {
+    margin-top: 20px;
+  }
+
+  #spark-logo {
+    margin-top: 20px;
+  }
+
+  .community-partner img {
+    width: 30%;
+    margin: auto;
   }
 
   .contact-list li {
