@@ -259,6 +259,13 @@ footer p {
   color: #428bca;
 }
 
+/* jobs page */
+
+.job-listing p {
+  text-align: left;
+  margin: 1em;
+}
+
 /* media queries */
 
 @media (min-width: 1200px) {
@@ -338,11 +345,11 @@ footer p {
   }
 
   .job-listing {
-    height: 28em;
+    height: 29em;
   }
 
   .job-listing p {
-    height: 13em;
+    height: 14em;
   }
 }
 
@@ -425,11 +432,11 @@ footer p {
   }
 
   .job-listing {
-    height: 30em;
+    height: 35em;
   }
 
   .job-listing p {
-    height: 16em;
+    height: 19em;
   }
 }
 
@@ -513,11 +520,11 @@ footer p {
   }
 
   .job-listing {
-    height: 38em;
+    height: 44em;
   }
 
   .job-listing p {
-    height: 22em;
+    height: 27em;
   }
 }
 
