@@ -326,6 +326,10 @@ footer p {
     margin-top: 78px;
   }
 
+  #meu-logo {
+    margin-top: 70px;
+  }
+
   .cogs {
     font-size: 5em;
     height: 408px;
@@ -410,6 +414,10 @@ footer p {
 
   #spark-logo {
     margin-top: 57px;
+  }
+
+  #meu-logo {
+    margin-top: 50px;
   }
 
   .cogs {
@@ -498,6 +506,10 @@ footer p {
 
   #spark-logo {
     margin-top: 45px;
+  }
+
+  #meu-logo {
+    margin-top: 40px;
   }
 
   .cogs {
@@ -615,6 +627,10 @@ footer p {
   }
 
   #spark-logo {
+    margin-top: 20px;
+  }
+
+  #meu-logo {
     margin-top: 20px;
   }
 
