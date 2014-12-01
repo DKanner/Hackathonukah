@@ -330,6 +330,10 @@ footer p {
     margin-top: 70px;
   }
 
+  #transloadit-logo {
+    margin-top: 89px;
+  }
+
   .cogs {
     font-size: 5em;
     height: 408px;
@@ -418,6 +422,10 @@ footer p {
 
   #meu-logo {
     margin-top: 50px;
+  }
+
+  #transloadit-logo {
+    margin-top: 65px;
   }
 
   .cogs {
@@ -510,6 +518,10 @@ footer p {
 
   #meu-logo {
     margin-top: 40px;
+  }
+
+  #transloadit-logo {
+    margin-top: 46px;
   }
 
   .cogs {
@@ -633,6 +645,11 @@ footer p {
   #meu-logo {
     margin-top: 20px;
   }
+
+  #transloadit-logo {
+    margin-top: 20px;
+  }
+
 
   .community-partner img {
     width: 30%;
