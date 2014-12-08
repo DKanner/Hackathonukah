@@ -132,6 +132,19 @@ section {
   font-size: 1.2em;
 }
 
+.judge {
+  margin-top: 20px;
+}
+
+.judge a img {
+  width: 70%;
+}
+
+.judge h4 {
+  width: 80%;
+  margin: 10px auto;
+}
+
 /* sponsors */
 #sponsors {
   background-color: #000; /* #EA6723; */
@@ -504,6 +517,14 @@ footer p {
     font-size: 16px;
   }
 
+  .judge a img {
+    width: 85%;
+  }
+
+  .judge h4 {
+    width: 100%;
+  }
+
   #nycda-logo {
     margin-top: 50px;
   }
@@ -631,6 +652,11 @@ footer p {
     padding: 10px 18px;
     font-size: 18px;
     margin-bottom: 15px;
+  }
+
+  .judge a img {
+    width: 35%;
+    margin-top: 20px;
   }
 
   .sponsor-logo img {
